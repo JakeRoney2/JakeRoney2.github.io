@@ -1,9 +1,9 @@
-body {
+body { /*This will change the background color to blue, text color to grey, and font to Gerogia or Arial if the browser doesn't support it*/
     color: rgb(158,162,162);
     background-color: rgb(12,35,64);
     font-family: Georgia, Arial;
 }
-.navbar ul{
+.navbar ul{ /*This will create the navbar at the top of the website with links to the other 3 pages*/
     list-style-type: none;
     background-color: rgb(35,97,146);
     padding: 0px;
@@ -11,37 +11,37 @@ body {
     position: fixed;
     width: 98.5%;
 }
-.navbar a{
+.navbar a{ /*This changes the color and alignment of the text links in the bar*/
     color: rgb(158,162,162);
     text-decoration: none;
     padding: 15px;
     display: block;
     text-align: center;
 }
-.navbar a:hover{
+.navbar a:hover{ /*This changes the background color and color of text when you hover over the navbar*/
     background-color: rgb(158,162,162);
     color: rgb(35,97,146);
 }
-.navbar li{
+.navbar li{ /*Changes the alignment of all of the links in the navbar*/
     float: left;
 }
-#title{
+#title{ /*Centers the title in the top of the website*/
     text-align: center;
 }
-#intro{
+#intro{ /*Changes the font size of the paragraphs to 20px*/
     font-size: 20px;
 }
-#northwest{
+#northwest{ /*Changes the alignment of a photo to the left side of the website*/
     float: right;
 }
-#logos{
+#logos{ /*Puts text on right side of website and changes font size to 20px*/
     text-align: right;
     font-size: 20px;
 }
-#logophoto{
+#logophoto{ /*Puts photo on left side of website*/
     float: left;
 }
-#target-center{
+#target-center{ /*Adds in an image with text on top of it*/
     font-weight: bold;
     font-size: 32px;
     color: white;
@@ -50,16 +50,16 @@ body {
     background-size: 100% 100%;
     min-height: 100vh;
 }
-#history{
+#history{ /*Changes the font size to 20px*/
     font-size: 20px;
 }
-#awards{
+#awards{ /*Changes the font size to 20px*/
     font-size: 18px;
 }
-#statpage{
+#statpage{ /*Changes font color to grey*/
     color: rgb(158,162,162);
 }
-#nextpage{
+#nextpage{ /*Adds a next page button*/
     background: rgb(158,162,162);
     border: 1px solid rgb(158,162,162);
     border-radius: 3px;
@@ -68,7 +68,7 @@ body {
     text-decoration: none;
     padding: 14px;
 }   
-#nextpage:hover {
+#nextpage:hover { /*Changes the color of the next page button when you hover over it*/
     background: rgb(12,35,64);
     border: 1px solid rgb(158,162,162);
     color: rgb(158,162,162);
