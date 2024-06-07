@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(12,35,64);
+    color: rgb(158,162,162); 
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(35,97,146);
+    padding: 0px;
+    margin: 0px;
+    position: fixed;
+    width: 98.5%;
+}
+.navbar a{
+    color: rgb(158,162,162);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: rgb(158,162,162);
+    color: rgb(35,97,146);
+}
+.navbar li{
+    float: left;
+}
+#header{
+    text-align: center;
+}
+#involvement{
+    font-size: 20px;
+}
+#list{
+    font-size: 20px;
+}
+#fastbreak{
+    font-size: 20px;
+    text-align: center;
+}
+#link{
+    color: rgb(158,162,162)
+}
+#previouspage{
+    background: rgb(158,162,162);
+    border: 1px solid rgb(158,162,162);
+    border-radius: 3px;
+    color: rgb(12,35,64);
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px;
+}
+#previouspage:hover{
+    background: rgb(12,35,64);
+    border: 1px solid rgb(158,162,162);
+    color: rgb(158,162,162);
+}
+#nextpage{
+    background: rgb(158,162,162);
+    border: 1px solid rgb(158,162,162);
+    border-radius: 3px;
+    color: rgb(12,35,64);
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px;
+}
+#nextpage:hover{
+    background: rgb(12,35,64);
+    border: 1px solid rgb(158,162,162);
+    color: rgb(158,162,162);
+}

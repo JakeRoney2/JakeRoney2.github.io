@@ -1,0 +1,75 @@
+body {
+    color: rgb(158,162,162);
+    background-color: rgb(12,35,64);
+    font-family: Georgia, Arial;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(35,97,146);
+    padding: 0px;
+    margin: 0px;
+    position: fixed;
+    width: 98.5%;
+}
+.navbar a{
+    color: rgb(158,162,162);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: rgb(158,162,162);
+    color: rgb(35,97,146);
+}
+.navbar li{
+    float: left;
+}
+#title{
+    text-align: center;
+}
+#intro{
+    font-size: 20px;
+}
+#northwest{
+    float: right;
+}
+#logos{
+    text-align: right;
+    font-size: 20px;
+}
+#logophoto{
+    float: left;
+}
+#target-center{
+    font-weight: bold;
+    font-size: 32px;
+    color: white;
+    background-image: url("https://images.axios.com/X12tejkjKK4rZp-fLqeugPrjAjA=/0x439:8640x5299/1920x1080/2024/03/18/1710786557729.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 100vh;
+}
+#history{
+    font-size: 20px;
+}
+#awards{
+    font-size: 18px;
+}
+#statpage{
+    color: rgb(158,162,162);
+}
+#nextpage{
+    background: rgb(158,162,162);
+    border: 1px solid rgb(158,162,162);
+    border-radius: 3px;
+    color: rgb(12,35,64);
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px;
+}   
+#nextpage:hover {
+    background: rgb(12,35,64);
+    border: 1px solid rgb(158,162,162);
+    color: rgb(158,162,162);
+}

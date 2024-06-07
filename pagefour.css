@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(35,97,146);
+    color: rgb(158,162,162);
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(12,35,64);
+    padding: 0px;
+    margin: 0px;
+    position: fixed;
+    width: 98.5%;
+}
+.navbar a{
+    color: rgb(158,162,162);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: rgb(158,162,162);
+    color: rgb(12,35,64);
+}
+.navbar li{
+    float: left;
+}
+#firstq{
+    font-size: 20px;
+}
+#secondq{
+    font-size: 20px;
+}
+#thirdq{
+    font-size: 20px;
+}
+#fourthq{
+    font-size: 20px;
+}
+#previouspage{
+    background: rgb(158,162,162);
+    border: 1px solid rgb(158,162,162);
+    border-radius: 3px;
+    color: rgb(35,97,146);
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px;
+}
+#previouspage:hover{
+    background: rgb(35,97,146);
+    border: 1px solid rgb(158,162,162);
+    color: rgb(158,162,162);
+}
