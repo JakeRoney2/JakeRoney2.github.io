@@ -1,8 +1,8 @@
-body {
+body { /*This changes background color to blue and text color to grey*/
     background-color: rgb(35,97,146);
     color: rgb(158,162,162);
 }
-.navbar ul{
+.navbar ul{ /*This makes navbar at top of page*/
     list-style-type: none;
     background-color: rgb(12,35,64);
     padding: 0px;
@@ -10,36 +10,36 @@ body {
     position: fixed;
     width: 98.5%;
 }
-.navbar a{
+.navbar a{ /*Changes color of font of links in navbar*/
     color: rgb(158,162,162);
     text-decoration: none;
     padding: 15px;
     display: block;
     text-align: center;
 }
-.navbar a:hover{
+.navbar a:hover{ /*Changes background color and text color when hovering over link*/
     background-color: rgb(158,162,162);
     color: rgb(12,35,64);
 }
-.navbar li{
+.navbar li{ /*Changes alignment of links to the left*/
     float: left;
 }
-#fan{
+#fan{ /*Centers text*/
     text-align: center;
 }
-#bad-franchise{
+#bad-franchise{ /*Changes link color to grey*/
     color: rgb(158,162,162)
 }
-#badfranchise{
+#badfranchise{ /*Changes font size to 20px*/
     font-size: 20px;
 }
-#jerseys{
+#jerseys{ /*Changes font size to 20px*/
     font-size: 20px;
 }
-#statement{
+#statement{ 
     float: center;
 }
-#Statement{
+#Statement{ /*Changes font and font size to 60px, and aligns left*/
     font-size: 60px;
     font-family: Georgia, Arial;
     float: right;
@@ -47,7 +47,7 @@ body {
 #icon{
     float: center;
 }
-#Icon{
+#Icon{ /*Changes font and font size to 60px, and aligns left*/
     font-size: 60px;
     font-family: Georgia, Arial;
     float: right;
@@ -55,7 +55,7 @@ body {
 #alternate{
     float: center;
 }
-#Alternate{
+#Alternate{ /*Changes font and font size to 60px, and aligns left*/
     font-size: 60px;
     font-family: Georgia, Arial;
     float: right;
@@ -63,7 +63,7 @@ body {
 #city{
     float: center;
 }
-#City{
+#City{ /*Changes font and font size to 60px, and aligns left*/
     font-size: 60px;
     font-family: Georgia, Arial;
     float: right;
@@ -71,25 +71,25 @@ body {
 #classic{
     float: center;
 }
-#Classic{
+#Classic{ /*Changes font and font size to 60px, and aligns left*/
     font-size: 60px;
     font-family: Georgia, Arial;
     float: right;
 }
-#roster{
+#roster{ /*Changes font size to 20px*/
     font-size: 20px;
 }
-#imagelink{
+#imagelink{ /*Changes font size to 20px*/
     font-size: 20px;
 }
-#mascot{
+#mascot{ /*Bolds font and aligns center*/
     font-weight: bold;
     text-align: center;
 }
-#crunch{
+#crunch{ /*Changes font size to 20px*/
     font-size: 20px;
 }
-#previouspage{
+#previouspage{ /*Adds previous page button*/
     background: rgb(158,162,162);
     border: 1px solid rgb(158,162,162);
     border-radius: 3px;
@@ -98,12 +98,12 @@ body {
     text-decoration: none;
     padding: 14px;
 }
-#previouspage:hover{
+#previouspage:hover{ /*Changes background color and text color of previous page button when hovered over*/
     background: rgb(35,97,146);
     border: 1px solid rgb(158,162,162);
     color: rgb(158,162,162);
 }
-#nextpage{
+#nextpage{ /*Adds next page button*/
     background: rgb(158,162,162);
     border: 1px solid rgb(158,162,162);
     border-radius: 3px;
@@ -112,7 +112,7 @@ body {
     text-decoration: none;
     padding: 14px;
 }
-#nextpage:hover{
+#nextpage:hover{ /*Changes background color and text color of previous page button when hovered over*/
     background: rgb(35,97,146);
     border: 1px solid rgb(158,162,162);
     color: rgb(158,162,162);
