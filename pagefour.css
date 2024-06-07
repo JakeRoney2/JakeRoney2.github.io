@@ -1,8 +1,8 @@
-body{
+body{ /*Changes background color and text color of page to blue and grey*/
     background-color: rgb(35,97,146);
     color: rgb(158,162,162);
 }
-.navbar ul{
+.navbar ul{ /*Changes color of navbar*/
     list-style-type: none;
     background-color: rgb(12,35,64);
     padding: 0px;
@@ -10,33 +10,33 @@ body{
     position: fixed;
     width: 98.5%;
 }
-.navbar a{
+.navbar a{ /*Changes text color of links in navbar*/
     color: rgb(158,162,162);
     text-decoration: none;
     padding: 15px;
     display: block;
     text-align: center;
 }
-.navbar a:hover{
+.navbar a:hover{ /*Changes background color and text color of navbar when hovered over*/
     background-color: rgb(158,162,162);
     color: rgb(12,35,64);
 }
-.navbar li{
+.navbar li{ /*Changes alignment to left*/
     float: left;
 }
-#firstq{
+#firstq{ /*Changes font size to 20px*/
     font-size: 20px;
 }
-#secondq{
+#secondq{ /*Changes font size to 20px*/
     font-size: 20px;
 }
-#thirdq{
+#thirdq{ /*Changes font size to 20px*/
     font-size: 20px;
 }
-#fourthq{
+#fourthq{ /*Changes font size to 20px*/
     font-size: 20px;
 }
-#previouspage{
+#previouspage{ /*Adds previous page button*/
     background: rgb(158,162,162);
     border: 1px solid rgb(158,162,162);
     border-radius: 3px;
@@ -45,7 +45,7 @@ body{
     text-decoration: none;
     padding: 14px;
 }
-#previouspage:hover{
+#previouspage:hover{ /*Changes background color and text color of previous page button when hovered over*/
     background: rgb(35,97,146);
     border: 1px solid rgb(158,162,162);
     color: rgb(158,162,162);
