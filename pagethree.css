@@ -1,8 +1,8 @@
-body{
+body{ /*Changes background color to blue and text color to grey*/
     background-color: rgb(12,35,64);
     color: rgb(158,162,162); 
 }
-.navbar ul{
+.navbar ul{ /*Createss navbar with links to other pages*/
     list-style-type: none;
     background-color: rgb(35,97,146);
     padding: 0px;
@@ -10,37 +10,37 @@ body{
     position: fixed;
     width: 98.5%;
 }
-.navbar a{
+.navbar a{ /*Changes color of text to grey*/
     color: rgb(158,162,162);
     text-decoration: none;
     padding: 15px;
     display: block;
     text-align: center;
 }
-.navbar a:hover{
+.navbar a:hover{ /*Changes background color and text color when hovered over*/
     background-color: rgb(158,162,162);
     color: rgb(35,97,146);
 }
-.navbar li{
+.navbar li{ /*Changes alignment to left*/
     float: left;
 }
-#header{
+#header{ /*Centers text*/
     text-align: center;
 }
-#involvement{
+#involvement{ /*Changes font size to 20px*/
     font-size: 20px;
 }
-#list{
+#list{ /*Changes font size to 20px*/
     font-size: 20px;
 }
-#fastbreak{
+#fastbreak{ /*Changes font size to 20px and aligns center*/
     font-size: 20px;
     text-align: center;
 }
-#link{
+#link{ /*Changes font color to grey*/
     color: rgb(158,162,162)
 }
-#previouspage{
+#previouspage{ /*Adds previous page button*/
     background: rgb(158,162,162);
     border: 1px solid rgb(158,162,162);
     border-radius: 3px;
@@ -49,12 +49,12 @@ body{
     text-decoration: none;
     padding: 14px;
 }
-#previouspage:hover{
+#previouspage:hover{ /*Changes background color and text color when hovered over*/
     background: rgb(12,35,64);
     border: 1px solid rgb(158,162,162);
     color: rgb(158,162,162);
 }
-#nextpage{
+#nextpage{ /*Adds next page button*/
     background: rgb(158,162,162);
     border: 1px solid rgb(158,162,162);
     border-radius: 3px;
@@ -63,7 +63,7 @@ body{
     text-decoration: none;
     padding: 14px;
 }
-#nextpage:hover{
+#nextpage:hover{ /*Changes background color and text color when hovered over*/
     background: rgb(12,35,64);
     border: 1px solid rgb(158,162,162);
     color: rgb(158,162,162);
